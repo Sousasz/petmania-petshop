@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Ultra', sans-serif;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.first-word {
+    color: #F97316;
+}
+
+.second-word {
+    color: #FDBA74;
+}
