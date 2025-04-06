@@ -1,0 +1,23 @@
+footer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35rem;
+
+  width: 100%;
+  height: 85px;
+  background-color: #FB923C;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 100%;
+  position: absolute;
+}
+
+footer p {
+  background-color: transparent;
+  color: #FFF7ED;
+}
+

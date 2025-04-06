@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  background-color: #FFF7ED;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDBA74;
+  padding: 50px;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  padding: 65px;
+
+  border-radius: 25px;
+  background-color: white;
+  width: 500px;
+  height: 800px;
+}
+
+main form .title-form {
+  color: #FB923C;
+  font-family: Montserrat, 'sans-serif'; 
+  font-size: x-large;
+  font-weight: 600;
+  background-color: transparent;
+  text-align: center;
+}
+
+main form .informations {
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
+  gap: 50px;
+  height: 100%;
+}
+
+main form .informations input {
+  border: none;
+  border-bottom: solid 1px #FDBA74;
+  height: 35px;
+  outline: none;
+
+  font-family: Montserrat, 'sans-serif';
+  font-size: medium;
+}
+main form .informations input::placeholder {
+  color: #FDBA74;
+  font-family: Montserrat, 'sans-serif';
+  font-size: medium;
+}
+main form .informations .terms {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FB923C;
+  font-size: small;
+  gap: 10px;
+}
+
+main form .informations .terms #link-for-terms {
+  color: #0B5AA5;
+  text-decoration: underline;
+}
+
+main form .informations .terms input#checkbox {
+  width: 20px;
+}
+
+main form .informations button {
+  background-color: #FB923C;
+  height: 50px;
+  font-family: Montserrat, 'sans-serif';
+  font-size: medium;
+  border: none;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}

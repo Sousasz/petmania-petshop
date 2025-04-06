@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: center;
+  padding: 55px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header .logo #pet-icon {
+  width: 65px;
+  height: 65px;
+  color: #fb923c;
+}
+
+header .logo .title {
+  display: flex;
+  flex-direction: column;
+}
+
+header .logo .title #first-name {
+  color: #F97316
+}
+
+header .logo .title #last-name {
+  color: #FDBA74
+}

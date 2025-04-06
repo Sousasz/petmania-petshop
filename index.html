@@ -24,9 +24,9 @@
     />
 
     <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/home-page/header.css" />
+    <link rel="stylesheet" href="./css/home-page/main.css" />
+    <link rel="stylesheet" href="./css/home-page/footer.css" />
 
     <title>Pet Mania | Sign Up</title>
   </head>
@@ -57,8 +57,8 @@
         <div class="auth">
           <i data-lucide="user-round" class="page-icon"></i>
           <div class="links">
-            <a href="#" id="sign-up">Cadastro</a>
-            <a href="#" id="sign-in">Login</a>
+            <a href="./sign-up.html" id="sign-up">Cadastro</a>
+            <a href="./login.html" id="sign-in">Login</a>
           </div>
         </div>
       </div>
@@ -84,21 +84,9 @@
         <div class="swiper-button-next"></div>
       </div>
 
-      <!-- <div class="product">
-        <img
-          class="product-image"
-          src="./images/recommended-product.jpg"
-          alt="Produto recomendado"
-        />
-        <p class="product-description">
-          Fralda Descartável Super Secão para Cães Machos
-        </p>
-        <p class="price">R$ 31,99</p>
-      </div>  -->
-
       <div class="recommended-products">
-        <h2>Produtos recomendados</h2>
-        <!-- ---- -->
+        <h2 class="product-title">Produtos recomendados</h2>
+
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -140,18 +128,351 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
+
+            <div class="swiper-slide">
+              <div class="products">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/recommended-product.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-description">
+                    Fralda Descartável Super Secão para Cães Machos
+                  </p>
+                  <p class="price">R$ 31,99</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/recommended-product.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-description">
+                    Fralda Descartável Super Secão para Cães Machos
+                  </p>
+                  <p class="price">R$ 31,99</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/recommended-product.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-description">
+                    Fralda Descartável Super Secão para Cães Machos
+                  </p>
+                  <p class="price">R$ 31,99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="products">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/recommended-product.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-description">
+                    Fralda Descartável Super Secão para Cães Machos
+                  </p>
+                  <p class="price">R$ 31,99</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/recommended-product.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-description">
+                    Fralda Descartável Super Secão para Cães Machos
+                  </p>
+                  <p class="price">R$ 31,99</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/recommended-product.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-description">
+                    Fralda Descartável Super Secão para Cães Machos
+                  </p>
+                  <p class="price">R$ 31,99</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>
-        <!-- ---- -->
+      </div>
+
+      <div class="all-for-dogs">
+        <h2 class="product-title">Tudo para cachorros</h2>
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="products">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="products">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="products">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-dogs.jpg"
+                    alt="Produto recomendado"
+                  />
+                  <p class="product-name">Ração</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div class="all-for-cats">
+        <h2 class="product-title">Tudo para gatos</h2>
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="products">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="products">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="products">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./images/product-for-cats.jpg"
+                    alt="Produto para gato"
+                  />
+                  <p class="product-name">Brinquedo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="images-of-petshop">
+          <img
+            id="first-image"
+            src="https://placehold.co/600x400"
+            alt="Imagem do Pet Shop"
+          />
+          <div class="images">
+            <img
+              id="second-image"
+              src="https://placehold.co/400x200"
+              alt="Imagem do Pet Shop"
+            />
+            <img
+              id="third-image"
+              src="https://placehold.co/400x200"
+              alt="Imagem do Pet Shop"
+            />
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="first-paragraph">
+            <h2>Nosso Pet Shop</h2>
+            <p class="about-our-petshop">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+              interdum mi.
+            </p>
+          </div>
+
+          <div class="second-paragraph">
+            <h2>Mais do que um serviço</h2>
+            <p>
+              Aliquam accumsan, nisi sit amet fringilla maximus, augue lectus
+              auctor elit, ut sagittis ex massa et eros. Nunc a facilisis augue.
+              Duis quis urna pharetra, feugiat libero quis, interdum purus.
+              Donec malesuada metus ut lobortis porta.
+            </p>
+
+            <p>
+              Duis quis urna pharetra, feugiat libero quis, interdum purus.
+              Donec malesuada metus ut lobortis porta.
+            </p>
+          </div>
+        </div>
       </div>
     </main>
 
-    <footer></footer>
+    <footer id="footer">
+      <p>Pet Mania © Todos os direitos reservados</p>
+    </footer>
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>

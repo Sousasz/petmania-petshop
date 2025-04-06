@@ -1,0 +1,320 @@
+main {
+  width: 100%;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .important-pets-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .important-pets-links a {
+  font-weight: 500;
+  color: #FDBA74;
+}
+
+main .swiper {
+  margin-top: 60px;
+  width: 85%;
+  height: 300px;
+}
+
+main .swiper .swiper-wrapper {
+  display: flex;
+  text-align: center;
+}
+
+main .swiper .swiper-wrapper .swiper-slide {
+  background-color: #FFEDD5;
+  border-radius: 10px;
+  font-family: Montserrat, 'sans-serif';
+  font-weight: bold;
+}
+
+main .swiper .swiper-button-prev, .swiper-button-next {
+  color: #FB923C;
+  font-weight: bolder;
+  background-color: transparent;
+}
+main .swiper .swiper-button-prev {
+  padding-left: 40px;
+}
+main .swiper-button-next {
+  padding-right: 40px;
+}
+
+main .recommended-products {
+  width: 85%;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+main .recommended-products .product-title {
+  color: #FB923C;
+  font-family: Montserrat, 'sans-serif';
+  font-weight: 600;
+  text-align: start;
+}
+
+main .recommended-products .product {
+  width: min-content;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 12px;
+}
+
+main .recommended-products .product .product-description {
+  max-width: 100%;
+  color: #EA580C;
+  font-weight: 400;
+}
+
+main .recommended-products .product .price {
+  color: #EA580C;
+  font-weight: bold;
+}
+
+main .recommended-products .product .product-image {
+  width: 250px;
+  border: solid 1px #FDBA74;
+  border-radius: 15px;
+}
+
+
+main .recommended-products .swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+main .recommended-products .swiper .swiper-wrapper .swiper-slide {
+  background-color: transparent;
+}
+
+main .recommended-products .swiper .swiper-button-prev {
+  background-color: #FED7AA;
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding-right: 40px;
+}
+main .recommended-products .swiper .swiper-button-next {
+  background-color: #FED7AA;
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding-left: 40px;
+}
+
+main .recommended-products .swiper .swiper-wrapper .swiper-slide .products {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* ------------------- */
+
+main .all-for-dogs {
+  width: 85%;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+main .all-for-dogs .swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+main .all-for-dogs .swiper .swiper-wrapper .swiper-slide {
+  background-color: transparent;
+}
+
+main .all-for-dogs .swiper .swiper-button-prev {
+  background-color: #FED7AA;
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding-right: 40px;
+}
+main .all-for-dogs .swiper .swiper-button-next {
+  background-color: #FED7AA;
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding-left: 40px;
+}
+
+main .all-for-dogs .product-title {
+  color: #FB923C;
+  font-family: Montserrat, 'sans-serif';
+  font-weight: 500;
+  text-align: start;
+}
+
+main .all-for-dogs .product {
+  width: min-content;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;  
+}
+
+main .all-for-dogs .product-title {
+  color: #FB923C;
+  font-family: Montserrat, 'sans-serif';
+  font-weight: 600;
+  text-align: start;
+}
+
+main .all-for-dogs .product .product-name {
+  max-width: 100%;
+  color: #EA580C;
+  font-weight: bold;
+  text-align: center;
+}
+
+main .all-for-dogs .product .product-image {
+  width: 250px; 
+  border-radius: 999px;
+  border: none;
+  background-color: #FFEDD5;
+}
+
+main .all-for-dogs .swiper .swiper-wrapper .swiper-slide .products {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+main .all-for-cats {
+  width: 85%;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+main .all-for-cats .swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+main .all-for-cats .swiper .swiper-wrapper .swiper-slide {
+  background-color: transparent;
+}
+
+main .all-for-cats .swiper .swiper-button-prev {
+  background-color: #FED7AA;
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding-right: 40px;
+}
+main .all-for-cats .swiper .swiper-button-next {
+  background-color: #FED7AA;
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding-left: 40px;
+}
+
+main .all-for-cats .product-title {
+  color: #FB923C;
+  font-family: Montserrat, 'sans-serif';
+  font-weight: 500;
+  text-align: start;
+}
+
+main .all-for-cats .product {
+  width: min-content;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;  
+}
+
+main .all-for-cats .product-title {
+  color: #FB923C;
+  font-family: Montserrat, 'sans-serif';
+  font-weight: 600;
+  text-align: start;
+}
+
+main .all-for-cats .product .product-name {
+  max-width: 100%;
+  color: #EA580C;
+  font-weight: bold;
+  text-align: center;
+}
+
+main .all-for-cats .product .product-image {
+  width: 250px; 
+  border-radius: 999px;
+  border: none;
+  background-color: #FFEDD5;
+}
+
+main .all-for-cats .swiper .swiper-wrapper .swiper-slide .products {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main .about {
+  margin-top: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+main .about .images-of-petshop {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+main .about .images-of-petshop #first-image {
+  background-color: #FFEDD5;
+  border-radius: 20px;
+}
+
+main .about .images-of-petshop .images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main .about .images-of-petshop .images #second-image {
+  border-radius: 20px;
+}
+main .about .images-of-petshop .images #third-image {
+  border-radius: 20px;
+}
+
+main .about .about-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+main .about .about-content h2 {
+  color: #F97316;
+}
+
+main .about .about-content p {
+  color: #C2410C;
+}
