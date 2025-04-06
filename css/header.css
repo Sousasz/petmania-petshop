@@ -1,0 +1,94 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .logo #pet-icon {
+    width: 65px;
+    height: 65px;
+    color: #fb923c;
+}
+
+header .logo .title {
+    display: flex;
+    flex-direction: column;
+}
+
+header .logo .title #first-name {
+    color: #F97316
+}
+
+header .logo .title #last-name {
+    color: #FDBA74
+}
+
+.seeker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 30rem;
+    height: 45px;
+    
+    border-width: 1;
+    border-radius: 8px;
+    background-color: #FFEDD5;
+    padding-left: 10px;
+}
+
+.seeker #seeker-input {
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    height: 100%;
+    outline: none;
+    padding-left: 5px;
+}
+.seeker #seeker-input::placeholder {
+    font-family: Montserrat, 'sans-serif';
+    font-size: 15px;
+    color: #FDBA74;
+}
+
+.seeker #seeker-icon {
+    color: #FB923C;
+    background-color: transparent;
+}
+
+header .pages {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header .pages .auth {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.page-icon {
+    color: #FB923C;
+}
+
+header .pages .auth .links {
+    display: flex;
+    flex-direction: column;
+}
+
+header .pages .auth .links #sign-up {
+    color: #FB923C;
+    font-weight: bold;
+}
+
+header .pages .auth .links #sign-in {
+    color: #FDBA74;
+    font-size: 13px;
+}

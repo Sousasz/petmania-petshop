@@ -1,0 +1,111 @@
+main {
+  width: 100%;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .important-pets-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .important-pets-links a {
+  font-weight: 500;
+  color: #FDBA74;
+}
+
+main .swiper {
+  margin-top: 60px;
+  width: 85%;
+  height: 300px;
+}
+
+main .swiper .swiper-wrapper {
+  display: flex;
+  text-align: center;
+}
+
+main .swiper .swiper-wrapper .swiper-slide {
+  background-color: #FFEDD5;
+  border-radius: 10px;
+  font-family: Montserrat, 'sans-serif';
+  font-weight: bold;
+}
+
+main .swiper .swiper-button-prev, .swiper-button-next {
+  color: #FB923C;
+  font-weight: bolder;
+  background-color: transparent;
+}
+main .swiper .swiper-button-prev {
+  padding-left: 40px;
+}
+main .swiper-button-next {
+  padding-right: 40px;
+}
+
+main .recommended-products {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .recommended-products .product {
+  width: min-content;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 12px;
+}
+
+main .recommended-products .product .product-description {
+  max-width: 100%;
+  color: #EA580C;
+  font-weight: 400;
+}
+
+main .recommended-products .product .price {
+  color: #EA580C;
+  font-weight: bold;
+}
+
+main .recommended-products .product .product-image {
+  width: 250px;
+  border: solid 1px #FDBA74;
+  border-radius: 15px;
+}
+
+
+main .recommended-products .swiper {
+  height: 100%;
+}
+
+main .recommended-products .swiper .swiper-button-prev {
+  background-color: #FED7AA;
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding-right: 40px;
+}
+main .recommended-products .swiper .swiper-button-next {
+  background-color: #FED7AA;
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding-left: 40px;
+}
+
+main .recommended-products .swiper .swiper-wrapper .swiper-slide .products {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+main .recommended-products .swiper .swiper-wrapper .swiper-slide {
+  background-color: transparent;
+}
