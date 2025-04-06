@@ -14,19 +14,30 @@
     <title>Pet Mania | Sign Up</title>
   </head>
   <body>
-    <header>
-      <img src="./images/pet.jpg" alt="" />
+    <header id="header">
+      <div class="logo">
+        <i data-lucide="paw-print" id="pet-icon"></i>
 
-      <div class="title">
-        <h1 class="first-word">
-          Pet
-          <h1 class="second-word">Mania</h1>
-        </h1>
+        <div class="title">
+          <h2 id="first-name">Pet</h2>
+          <h2 id="last-name">Mania</h2>
+        </div>
       </div>
+
+      <div class="seeker">
+        <input type="text" placeholder="O que você precisa?" />
+      </div>
+
+      <div class="pages"></div>
     </header>
-
     <main></main>
-
     <footer></footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>
